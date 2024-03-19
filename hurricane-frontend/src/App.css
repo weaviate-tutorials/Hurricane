@@ -1,0 +1,186 @@
+/* App.css */
+.app {
+  margin: -2vh auto;
+  padding: 0.5vh 10vh; /* height width */
+  text-align: center;
+  height: 400vh;
+}
+
+h1 {
+  text-align: center;
+  font-size: 7vh;
+  font-family: 'Montserrat';
+  color: #092844;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+input {
+  margin-top: -1vh;
+  flex: 1;
+  height: 4vh;
+  padding: 10px;
+  font-size: 3vh;
+  font-family: 'Montserrat';
+  color: #092844;
+}
+
+button {
+  margin-top: -1vh;
+  padding: 10px 20px;
+  font-size: 3vh;
+  font-family: 'Montserrat';
+  background-color: #092844;
+  color: white;
+  font-weight: bold;
+  border:  none;
+  box-shadow: 0.5vh 0.5vh 0.5vh #092844;
+}
+
+button:hover {
+  color: #092844;
+  background-color: white;
+  transition: 0.2s;
+  cursor: pointer;
+  box-shadow: 0 0 0 white;
+}
+
+.content-container {
+  display: flex;
+}
+
+.blog-container h2 {
+  text-align: center;
+}
+
+.blog-container h3 {
+  text-align: left;
+}
+
+.blog-container {
+  flex: 1;
+  padding-right: 20px;
+  text-align: left;
+}
+.blog-container h2 {
+  font-size: 3vh;
+  font-family: 'Montserrat';
+  color: #092844;
+}
+
+.thoughts-container h2 {
+  font-size: 3vh;
+  font-family: 'Montserrat';
+  color: #092844;
+}
+
+.blog {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.blogstyling:hover {
+  color: #092844;
+  background-color: white;
+}
+
+.blogstyling {
+  border: 0.2vh solid #092844;
+  padding: 0vh 2vh;
+  background-color: white;
+}
+
+.blogstyling h1 {
+  font-size: 3vh;
+}
+
+.right-container {
+  flex: 1;
+}
+
+.thoughts-container {
+  margin-bottom: 20px;
+}
+
+.thought {
+  border: 1px solid #ccc;
+  text-align: left;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-family: 'Montserrat';
+  color: #092844;
+  font-size: 3vh;
+  background-color: white;
+  border: solid 0.2vh #092844;
+  transition: 0.5s;
+}
+
+.thought:hover {
+  background-color: #092844;
+  color: white;
+  cursor: pointer;
+}
+
+.status-container {
+  margin-top: -4vh;
+  padding: 10px;
+}
+
+.status-container h2 {
+  color: #092844;
+  font-size: 3.4vh;
+}
+
+.WeaviateStatus {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.DataTable h2 {
+  color: #092844;
+}
+
+.DataTable {
+  text-align: center;
+  margin: 0vh 2vw;
+  background-color: white;
+  font-size: 2vh;
+  padding: 0 2vh;
+  color: #092844;
+  border-radius: 2vh;
+  border: solid 0.2vh #092844;
+  transition: 0.5s;
+}
+
+.DataTable:hover {
+  background-color: #092844;
+  color: white;
+  cursor: pointer;
+}
+
+.DataTable h3 {
+  text-align: left;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 800ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 800ms ease-in;
+}
